@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | Gym Fitness</title>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<div class="container">
+    <div class="logo">
+        <img src="images/logo.png" alt="logo">
+    </div>
+
+    <div class="menu-icon" onclick="openMenu()">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+</div>
+
+<!-- ================= SERVICES HERO ================= -->
+<section class="services-hero">
+    <h1>OUR SERVICES</h1>
+    <p>Train Smart. Train Strong. Train Right.</p>
+</section>
+
+<!-- ================= SERVICES INTRO ================= -->
+<section class="services-intro">
+    <h6>WHAT WE OFFER</h6>
+    <h1>PREMIUM FITNESS SERVICES</h1>
+    <p>
+        We provide world-class fitness services designed to help you achieve
+        strength, endurance, flexibility, and overall wellness.
+    </p>
+</section>
+
+<!-- ================= SERVICES CARDS ================= -->
+<section class="services-cards">
+    <div class="card">
+        <i class="fa-solid fa-dumbbell"></i>
+        <h3>Personal Training</h3>
+        <p>
+            One-on-one training programs designed specifically for your body type
+            and fitness goals.
+        </p>
+    </div>
+
+    <div class="card">
+        <i class="fa-solid fa-heart-pulse"></i>
+        <h3>Cardio Training</h3>
+        <p>
+            Improve stamina and heart health with advanced cardio equipment and
+            guided routines.
+        </p>
+    </div>
+
+    <div class="card">
+        <i class="fa-solid fa-weight-scale"></i>
+        <h3>Weight Loss Programs</h3>
+        <p>
+            Scientifically designed fat-loss plans combined with nutrition guidance.
+        </p>
+    </div>
+
+    <div class="card">
+        <i class="fa-solid fa-person-running"></i>
+        <h3>Functional Training</h3>
+        <p>
+            Improve balance, strength, and mobility through functional movements.
+        </p>
+    </div>
+
+    <div class="card">
+        <i class="fa-solid fa-apple-whole"></i>
+        <h3>Nutrition Guidance</h3>
+        <p>
+            Personalized nutrition plans to complement your workout routine.
+        </p>
+    </div>
+
+    <div class="card">
+        <i class="fa-solid fa-spa"></i>
+        <h3>Recovery & Wellness</h3>
+        <p>
+            Stretching, recovery, and wellness programs to avoid injuries.
+        </p>
+    </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="services-cta">
+    <h1>START YOUR FITNESS JOURNEY TODAY</h1>
+    <p>Push your limits with professional guidance</p>
+    <button>BOOK A SESSION</button>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+    <p>&copy; 2026 Gym Fitness. All rights reserved. Stay Healthy and Fit.</p>
+</footer>
+
+<!-- ================= SIDE MENU ================= -->
+<div class="overlay" id="overlay" onclick="closeMenu()"></div>
+
+<div class="side-menu" id="sideMenu">
+    <div class="close-btn" onclick="closeMenu()">&times;</div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Services.html">Services</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+    </ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
